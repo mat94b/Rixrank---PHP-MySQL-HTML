@@ -1,0 +1,268 @@
+<?php
+////////////////////////////////////////////////////////////////////////////
+//JavaScript library////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//Author...........: £ukasz Kusy
+//Last update data.: 07.04.2015
+//Version..........: 1.0.0.0
+//Language.........: English
+////////////////////////////////////////////////////////////////////////////
+//CURRENT///////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+// JS_Start
+// JS_End
+// JS_DocumentReadyStart
+// JS_DocumentReadyEnd
+// JS_ContainerBackGround
+// JS_Alert
+// JS_ContainerWidth
+// JS_ContainerHeight
+// JS_AddVar
+// JS_AddVarString
+// JS_ClickCropStart
+// JS_ClickCropEnd
+// JS_FunctionBodyCrop
+////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_Start
+//Description...: Function is responsible for start area JavaScript.
+//Syntax........: JS_Start()
+//Parameters....: None
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_Start()
+{
+   echo "<script type='text/javascript'>";
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_End
+//Description...: Function is responsible for end area JavaScript.
+//Syntax........: JS_End()
+//Parameters....: None
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_End()
+{
+  echo "</script>";
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_DocumentReadyStart
+//Description...: Function is responsible for start document ready.
+//Syntax........: JS_DocumentReadyStart()
+//Parameters....: None
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_DocumentReadyStart()
+{
+  echo "$(document).ready(function(){";
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_DocumentReadyEnd
+//Description...: Function is responsible for end document ready.
+//Syntax........: JS_DocumentReadyEnd()
+//Parameters....: None
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_DocumentReadyEnd()
+{
+  echo "});";
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_ContainerBackGround
+//Description...: Function set style HTML background (container).
+//Syntax........: JS_ContainerBackGround($User)
+//Parameters....: $User - name of user
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_ContainerBackGround($User)
+{
+  echo "document.getElementById('container').style.backgroundImage= \"url('../data/upload/".$User.".jpg')\" ; " ;
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_Alert
+//Description...: Function run alert.
+//Syntax........: JS_Alert($Text)
+//Parameters....: $Text - message
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_Alert($Text)
+{
+  echo "alert('".$Text."') " ;
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_ContainerWidth
+//Description...: Function set container width.
+//Syntax........: JS_ContainerWidth($Width)
+//Parameters....: $Width - width
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_ContainerWidth($Width)
+{
+  echo "document.getElementById('container').style.width= '".$Width."%'; " ;
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_ContainerHeight
+//Description...: Function set container width.
+//Syntax........: JS_ContainerHeight($Height)
+//Parameters....: $Height - height
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_ContainerHeight($Height)
+{
+   echo "document.getElementById('container').style.height= '".$Height."px'; " ;
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_AddVar
+//Description...: Function add new variable.
+//Syntax........: JS_JS_AddVar($Width)
+//Parameters....: $Name - name
+//                $Value - value
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 07.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_AddVar($Name,$Value)
+{
+   echo " var ".$Name."=".$Value ;
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_AddVarString
+//Description...: Function add new variable (type: string).
+//Syntax........: JS_AddVarString($Name,$Value)
+//Parameters....: $Name - name
+//                $Value - value
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 22.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_AddVarString($Name,$Value)
+{
+   echo " var ".$Name."= '".$Value."' " ;
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_ClickCropStart()
+//Description...: Function add button action .
+//Syntax........: JS_ClickCropStart()
+//Parameters....: None
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 08.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_ClickCropStart()
+{
+   echo "$('#crop').click(function(){";
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_ClickCropEnd
+//Description...: Function end loop.
+//Syntax........: JS_ClickCropEnd()
+//Parameters....: None
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 08.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_ClickCropEnd()
+{
+  echo "});";
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+//Function /////////////////////////////////////////////////////////////////
+//Name..........: JS_FunctionBodyCrop
+//Description...: Function paste function body.
+//Syntax........: JS_FunctionBodyCrop()
+//Parameters....: $User - name of user
+//Return values.: None
+//Author .......: £ukasz Kusy
+//Modified......: 08.04.2015
+////////////////////////////////////////////////////////////////////////////
+function JS_FunctionBodyCrop($User)
+{
+    echo "var box = $('#box').offset();" ;
+    echo "var container = $('#container').offset();" ;
+
+    echo "var y = box.top - container.top;" ;
+    echo "var x = box.left - container.left;" ;
+
+    echo "var pw = w*ValueScale;" ;
+    echo "var ph = h*ValueScale;" ;
+
+    echo "x = x*ValueScale;" ;
+    echo "y = y*ValueScale;" ;
+
+    echo "$.post('crop.php',{x:x,y:y,w:pw,h:ph},function(){" ;
+    echo "document.getElementById('ic').src = \"../data/upload/".$User."crop.jpg?random=\"+new Date().getTime();" ;
+    echo "});" ;
+}
+////////////////////////////////////////////////////////////////////////////
+
+
+
+?>

@@ -1,0 +1,308 @@
+body{
+    background-color: rgb(255,255,255);
+}
+
+
+
+div.photo_left{
+    display: inline;
+    height: 400px;
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 100px;
+    position: relative;
+    z-index: 3;
+}
+
+div.photo_right{
+    display: inline;
+    text-align: right;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+    float: right;
+}
+
+#inf_right{
+    display: relative;
+    z-index:0;
+    margin-left: 12%;
+}
+
+div.hat{
+    background-color: rgb(230,115,0);
+    width: 80%;
+    padding-left: 6%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size:30px;
+    font-family: sans-serif;
+    color: #FFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
+    margin-top: 20px;
+}
+
+input{
+    color: rgb(230,115,0);
+    background-color: rgba(45,45,45,0);
+    font-family: sans-serif;
+    font-size: 25px;
+    border:1px solid rgb(45,45,45);
+}
+
+input[name="left_button_border"]
+{
+    color: rgb(45,45,45);
+    border: rgb(230,115,0);
+}
+
+
+input:hover{
+    color: rgb(255,255,255);
+}
+
+div.vs_image{
+    display: inline;
+}
+
+img[name="orange"]{
+    border: 40px solid rgb(45,45,45);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #000;
+    position: relative;
+    z-index:10;
+}
+
+img[name="white"]
+{
+    border: 40px solid rgb(230,115,0);
+    border-radius: 10px; 
+    box-shadow: 10px 10px 5px #000;
+    position:relative;
+    z-index:10;
+}
+
+button[name="left_submit"]
+{
+    margin-top: 0px;
+    font-size: 50px;
+    color: rgb(45,45,45);
+    border: 0px solid rgba(230,115,0,.0);
+    background-color:rgba(255,255,255,.0);
+}
+
+button[name="right_submit"]
+{
+    margin-top: 0px;
+    font-size: 50px;
+    color: rgb(230,115,0);
+    border: 0px solid rgb(230,115,0);
+    border: 0px solid rgba(230,115,0,.0);
+    background-color:rgba(255,255,255,.0);
+}
+
+button[id="nick1"]
+{
+    font-size: 40px;
+    background-color: rgba(255,255,255,.0);
+    border: 0px solid rgba(255,255,255,.0);
+    color: rgb(45,45,45);
+}
+
+button[id="nick2"]
+{
+    font-size: 40px;
+    background-color: rgba(255,255,255,.0);
+    border: 0px solid rgba(255,255,255,.0);
+    color: rgb(230,115,0);
+}
+
+button[id="nick2"]:hover {color:#FFF;}
+button[id="nick1"]:hover {color:#FFF;}
+button[name="left_submit"]:hover {color:#FFF;}
+button[name="right_submit"]:hover {color:#FFF;}
+#buttons_right
+{
+    display: inline-block;
+    width: 380px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    background-color: rgb(45,45,45);
+    color: #FFF;
+    border-radius: 10px;  
+    box-shadow: 10px 10px 5px #000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#buttons_left
+{
+    display: inline-block;
+    width: 380px;
+    text-align: center;
+    margin-right: 0px;
+    margin-top:10px;
+    background-color: rgb(230,115,0);
+    border-radius: 10px;  
+    box-shadow: 10px 10px 5px #000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+div.button{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#hidden
+{
+   z-index: 2;
+   position: absolute;
+   width: 760px;
+   height: 400px;
+   text-align: left;
+   margin-top: 40px;
+   margin-left:0%;
+}
+
+
+#inf_right{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(45,45,45);
+    border-radius: 10px;
+    border: 2px solid rgb(230,115,0);
+    box-shadow: 10px 10px 5px #000;
+    visibility: hidden;
+    
+}
+
+#inf_left{
+    display: inline-block;
+    width: 300px;
+    margin-right: 0px;
+    margin-left:40px;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(230,115,0);
+    border-radius: 10px;
+    border: 2px solid rgb(45,45,45);
+    box-shadow: 10px 10px 5px #000;
+    visibility: hidden;
+}
+
+
+div.name_left{
+
+}
+
+
+div.age{
+    color: rgb(255,255,255);
+}
+
+div.country{
+    color: rgb(255,255,255);
+}
+
+div.plus{
+    color: rgb(255,255,255);
+}
+
+div.minus{
+    color: rgb(255,255,255);
+}
+
+div.text_bold_orange{
+    font-weight: bold;
+    color: rgb(230,115,0);
+    display: inline;
+}
+
+div.text_bold_orange_left{
+    font-weight: bold;
+    color: rgb(45,45,45);
+    display: inline;
+}
+
+#report{
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+input[name="nick1"]{
+    color: #FFF;
+}
+
+input[name="report_left"]
+{
+    font-size: 15px;
+    color: rgb(230,115,0);
+    border: 0px solid rgb(230,115,0);
+}
+
+input[name="report_right"]
+{
+    margin-left: 50%;
+    font-size: 15px;
+    color: rgb(45,45,45);
+    border: 0px solid rgb(230,115,0);
+}
+
+input[name="report_right"]:hover
+{
+    background-color: rgb(230,115,0);
+}
+
+input[name="report_left"]:hover
+{
+    background-color: rgb(45,45,45); 
+}
+
+
+div.big_box{
+    width: 780px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+button[id="male"]{
+    background-color: rgb(45,45,45);
+    width: 40%;
+    margin-right: 5px;
+    color: rgb(230,115,0);
+}
+
+button[id="male"]:hover{color: #FFF;}
+button[id="female"]:hover{color: #FFF;}
+
+button[id="female"]{
+    width: 40%;
+    background-color: rgb(45,45,45);
+    margin-left: 5px;
+    color: rgb(230,115,0);
+}
+
+div.test_border{
+    margin-top: 20px;
+}
+
+div.test_all{
+    text-align: center;
+    margin-top: 10px;
+    color:rgb(45,45,45);
+}
+
+#msgbox_report_text{
+    background-color: rgb(45,45,45);
+    color: rgb(230,115,0);
+    padding: 10px;
+    border-radius:10px;
+}

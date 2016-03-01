@@ -1,0 +1,292 @@
+body,
+html{
+    main-height: 100%;
+}
+
+body {
+    margin: 0px;
+    background-color: #FFF; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    position: relative;
+    font-family: Segoe Print;
+    color: #FFF;
+}
+
+div.top {
+    display:inline; 
+    width:100%; 
+    height: 7%;
+    margin-top: 2px;
+    padding-top:0px; 
+    text-align:center;
+    color: #FFF; 
+    margin-top: 5px;
+}
+
+div.margtop {
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: 35px;
+    background-color: rgba(255,255,255,.5);
+    width: 380px;
+    border-radius:10px;
+}
+
+div.margtop:hover{background-color: rgba(255,255,255,.5);}
+
+
+#top ul{
+    float:right; 
+    margin:0px; 
+    padding:0; 
+    list-style:none;}
+
+
+div.register_box {
+    margin-left: 20%;
+    color: #FFF;
+    background-color: rgba(255,255,255,.5);
+    width: 65%;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    padding: 15px;
+}
+
+div.register_box:hover{background-color: rgba(255,255,255,.5);}
+
+div.text{
+    margin-top: 5%;
+    margin-left: 20%;
+    color: #FFF;
+    background-color: rgba(45,45,45,.5);
+    width: 65%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    padding: 15px;
+}
+
+div.text:hover{background-color: rgba(45,45,45,.5);}
+
+div.text_head{
+    color: rgb(230,115,0); 
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 20px;
+}
+div.text_small_head{
+    color: rgb(230,115,0); 
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+div.text_body{
+    color: #FFF; 
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top:30px;
+}
+
+div.text_register{
+    color: rgb(45,45,45); 
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+div.register_display{
+    display:inline;
+    margin-right: 0px;
+}
+
+div.register_display2{
+    color: rgb(230,115,0);
+    border:2px solid rgba(230,115,0,.0);
+    width: 170px;
+    height: 25px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border:2px solid rgba(230,115,0,.0);
+    display: inline-block;
+}
+
+div.footter{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom:0px;
+    margin-top: 6%;
+    color: #FFF;
+}
+
+div.footter_margin{
+    margin-right: 25%;
+    display:inline;
+}
+
+input[type="text"]{
+    color: rgb(230,115,0);
+    background-color: rgba(45,45,45, 1.0);
+    border:2px solid rgba(230,115,0,.0);
+    height: 30px;
+    width: 120px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border:2px solid rgba(230,115,0,.0);
+    border-bottom: 2px solid rgb(45,45,45);
+}
+input:focus{ background: rgb(45,45,45); color:rgb(230,115,0); border-bottom: 2px solid rgb(230,115,0);}
+input[type="text"]:hover{ background: rgb(45,45,45); color:rgb(230,115,0); border-bottom: 2px solid rgb(230,115,0); }
+
+input[type="password"]
+{
+    color: rgb(230,115,0);
+    background-color: rgba(45,45,45, 1.0);
+    height: 30px;
+    width: 120px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border:0px solid rgba(230,115,0,.0);
+    border-bottom: 2px solid rgb(45,45,45);
+}
+
+input[type="password"]:focus {  background: rgb(45,45,45); color:rgb(230,115,0); border-bottom: 2px solid rgb(230,115,0); }
+input[type="password"]:hover {  background: rgb(45,45,45); color:rgb(230,115,0); border-bottom: 2px solid rgb(230,115,0); }
+
+button[name="login"]{
+    background-color: rgba(230,115,0,.0);
+    height: 30px;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(45,45,45);
+    border:2px solid rgba(230,115,0,.0);
+}
+
+button[name="login"]:hover{ color:rgb(230,115,0); background-color: rgb(45,45,45);}
+
+button[name="forgotten"]{
+    background-color: rgba(230,115,0,.0);
+    height: 20px;
+    width: 190px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color:rgb(45,45,45);
+    border:2px solid rgba(230,115,0,.0);
+    margin-top: 2px;
+}
+
+button[name="forgotten"]:hover{color:rgb(230,115,0);}
+
+select
+{
+    background-color: rgba(45,45,45, 1);
+    height: 30px;
+    width:80px;
+    font-family: sans-serif;
+    font-size: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:2px solid rgba(230,115,0,.0);
+    color: rgb(230,115,0);
+}
+
+
+select:focus{
+    background: rgb(45,45,45);
+    color:rgb(230,115,0);
+}
+
+select:hover{
+    background: rgb(45,45,45);
+    color:rgb(230,115,0);
+}
+
+#backgrounds img{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: 100%;
+    background: #000;
+    z-index: 1;
+    bottom: 0px;
+    border:2px solid rgba(230,115,0,.0);
+    
+}
+#wrapper{
+    position:relative;
+    z-index:3; // again, this is important    
+}
+
+
+
+
+a { 
+    color: #FFF; 
+    margin-right: 20px;
+}
+
+
+#st
+{
+    display: inline;
+    color: rgb(45,45,45);
+}
+
+div.reminder_text{
+    font-size:15px;
+    color: #FFF;
+    text-align: center;
+}
+
+#forgot_pass
+{
+    background-color: rgb(45,45,45);
+}
+
+input[name="mail23"]
+{
+    width: 100%;
+    margin-top: 10px;
+    border:2px solid rgb(230,115,0);
+    
+}
+
+input[name="mail23"]:focus{
+    border-top: 0px solid rgb(45,45,45);
+    border-right: 0px solid rgb(45,45,45);
+    border-left: 0px solid rgb(45,45,45);
+}
+
+button[id="button_forgot_pass"]{
+    background-color: rgba(230,115,0,.0);
+    height: 30px;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(230,115,0);
+    border:2px solid rgba(230,115,0,.0);
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+button[id="button_forgot_pass"]:hover{background-color: rgb(230,115,0); color:rgb(45,45,45);}
+
+div.sent_or_not{
+    color:#FFF;
+}
+
+div.guest{
+    font-size: 40px;
+    border-bottom: 2px solid rgb(230,115,0);
+    padding-left: 10px;
+    text-shadow: 5px 5px 8px rgb(230,115,0);
+}

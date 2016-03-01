@@ -1,0 +1,155 @@
+div.main_box{
+    background-color: rgb(45,45,45);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top:20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+    color: rgb(230,115,0);
+}
+
+div.main_top_text{
+    width: 94%;
+    padding-left: 6%;
+    padding-top: 25px;e
+    padding-bottom: 5px;
+    font-size:30px;
+    font-family: sans-serif;
+    color: #FFF;
+    background-color: rgb(230,115,0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    text-align: left;
+    margin-top: 20px;
+}
+
+div.settings_type{
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    display:inline;
+    margin-left: 30%;
+}
+
+div.in_area{
+    position: relative;
+    z-index: 10;
+    margin-left: 55%;
+}
+
+div.next_line{
+    margin-top: 10px;
+}
+
+div.save_button{
+    margin-left: 47%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.text_setting{
+    margin-left: 10%;
+    color: #FFF;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+input{
+    background-color: rgba(230,115,0,.7);
+    border: 0px solid rgba(230,115,0,.0);
+    color: rgb(45,45,45);
+    height: 30px;
+    width:200px;
+}
+input:focus{ background-color: rgba(230,115,0,1.0);}
+
+input[value="Save"]{
+    color: #FFF;
+    font-size: 30px;
+    background-color: rgba(230,115,0,.0);
+    border: 0px solid rgba(230,115,0,.0);
+}
+
+input[value="Save"]:hover { color: rgb(230,115,0); }
+
+textArea{
+    height: 15%;
+    width: 90%;
+    resize: none;
+    text-align: center;
+    background-color: rgba(255,143,32, .5);
+    border:1px solid rgba(255,143,32, 0);
+    color: rgb(45,45,45);
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+
+div.separate_box{
+    border-bottom: 2px solid rgb(230,115,0);
+    margin: 20px;
+}
+
+select
+{
+    background-color: rgba(230,115,0, .7);
+    border: 2px solid rgba(230,115,0, .0);
+    margin-right: 10px;
+    height: 30px;
+    width:66.3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select:focus{
+    background-color: rgbax(230,115,0, 1.0);
+}
+
+div.red_space{
+    margin-left: 10px;
+    color: #FFF;
+    display: inline;
+    font-size: 13px;
+}
+
+div.white{
+    display: inline;
+}
+
+div.inf_picture{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+
+#inf{
+    background-color: rgb(45,45,45); 
+    border-radius: 10px;
+    border: 2px solid rgb(230,115,0);
+    box-shadow: 10px 10px 5px #000;
+    font-size:10px; 
+    color:rgb(255,255,255);
+    width: 240px;
+    height: 60px;
+    top:500px; left:30%; 
+    position: absolute; 
+    visibility: hidden; 
+    padding: 5px;
+    padding: 10px;
+}
+div.inf_header{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.inf_text{
+    margin-top: 5px;
+}
+
+div.red_text{
+    color: rgb(230,115,0);
+    display:inline;
+}

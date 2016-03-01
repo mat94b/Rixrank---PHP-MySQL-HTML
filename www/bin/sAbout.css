@@ -1,0 +1,31 @@
+div.border{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(45,45,45);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    color: #FFF;
+    padding: 10px;
+    font-family: sans-serif;
+    border: 2px solid rgb(230,115,0);
+    box-shadow: 10px 10px 5px #000;
+}
+
+div.chapter{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(230,115,0);
+}
+
+div.arts{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+div.title{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}

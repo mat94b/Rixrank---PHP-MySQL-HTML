@@ -1,0 +1,134 @@
+div.box_top1{
+    width: 100%;
+    height: 150px ;
+    box-shadow: 10px 10px 5px #000;
+    border-radius:10px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border:2px solid rgb(230,115,0);
+    background-color: rgb(45,45,45);
+    text-align: left;
+    font-size: 30px;
+    padding-top:0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: rgb(255,255,255);
+}
+
+div.box_rank_female{
+    display:inline-block;
+    width: 41%;
+    position: absolute;
+}
+
+div.box_rank_male{
+    display:inline-block;
+    width: 45%;
+    margin-right:0%;
+    float: right;
+    position: relative;
+}
+
+div.box_photo{
+    display:inline;
+}
+
+div.box_text{
+    display:inline;
+    border:2px dashed rgb(230,115,0);
+    position: relative;
+    height: 100px;
+}
+
+div.top_button{
+    display:inline-block; 
+    margin-left: 20px;
+}
+
+input{
+    border: 0px solid #000;
+    background-color: rgba(230,115,0, .0);
+    color: rgb(230,115,0);
+    font-size: 30px;
+    margin-top:5px;
+    margin-left: 20px;
+}
+
+input:hover{
+    color: #FFF;
+}
+
+img[name="rank_photo"]
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #000;
+}
+
+
+div.pluses{
+    display:inline;
+    background-color: rgb(230,115,0);
+    color: rgb(45,45,45);
+    border-radius: 10px;
+    position: absolute;
+    margin-left:20px;
+    text-align: center;
+    margin-top: 40px;
+    width: 63%;
+    box-shadow:10px 10px 5px #000;
+}
+div.ages{
+    width: 50px;
+    display:inline;
+    border-radius: 10px;
+    position: absolute;
+    margin-left:72%;
+    margin-top: 40px;
+    background-color: rgb(255,130,0);
+    color: rgb(45,45,45);
+    box-shadow:10px 10px 5px #000;
+}
+
+
+
+div.pluses_text{
+    color: #FFF;
+    background-color: rgba(230,115,0,.0);
+    font-size:15px;
+    border-bottom:2px solid rgb(45,45,45);
+}
+
+div.ages_text{
+    color: #FFF;
+    background-color: rgba(230,115,0, .0);
+    border-bottom:2px solid rgb(45,45,45);
+    font-size:15px;
+}
+
+
+
+div.hed_text{
+    background-color: rgb(230,115,0);
+    color: #FFF;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    width: 50px;
+    padding-left: 20px;
+}
+
+div.butt{
+    display:inline;
+    position:absolute;
+}
+
+
+div.big_box{ 
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    
+}
+
+div.foot_down{border: 2px solid rgb(230,115,0);display: block; position: relative;}

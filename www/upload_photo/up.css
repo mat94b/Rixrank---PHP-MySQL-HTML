@@ -1,0 +1,312 @@
+#box{
+	position: initial;
+	width: 300px;
+	height: 400px;
+   border: 3px dashed rgb(230,115,0) ;
+  
+}
+#container{ 
+  	width: 95%;
+  	height: 642px;
+  	margin-top: 20px;
+   //margin-left: 20px;
+    border: 2px solid rgb(230,115,0);
+    background-image: url();
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    box-shadow: 10px 10px 5px #000;
+}
+
+
+#imgcrop{
+	top: 20px;
+
+}
+div.top_orange{
+    padding-left: 6%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size:30px;
+    font-family: sans-serif;
+    color: #FFF;
+    background-color: rgb(230,115,0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+
+div.body_ground{
+    position: absolute;
+    display: inline-block;
+    width: 67%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: rgb(45,45,45);
+    box-shadow: 10px 10px 5px #888888;
+    margin-left: 3%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-radius: 10px; 
+    color: rgb(230,115,0);
+}
+
+div.top_orange2{
+    padding-left: 6%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size:30px;
+    font-family: sans-serif;
+    color: #FFF;
+    background-color: rgb(230,115,0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+
+div.body_ground2{
+	position: relative;
+	display: inline-block;
+	width: 26%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: rgb(45,45,45);
+    box-shadow: 10px 10px 5px #888888;
+    margin-top: 20px;
+    margin-left: 71%;
+    border-radius: 10px;
+    border-radius: 10px; 
+}
+
+div.upload_box{
+    margin-top: 30px;
+}
+
+#yourBtn{   
+    height: 50px; 
+    width: 80%;
+    cursor:pointer;
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: rgba(230,115,0, .5);
+    color: rgb(45,45,45);
+}
+
+#yourBtn:hover
+{ 
+    background-color: rgba(230,115,0, 1.0);
+    color: #FFF;
+}
+
+#hidden_button{
+    height: 0px;
+    width:0px;
+    overflow:hidden;
+}
+
+input[name="aprov"]
+{
+    border:0px solid rgba(230,115,0,.0);
+    margin-top: 10px;
+    height: 65px; 
+    width: 80%;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: rgba(230,115,0, .5);
+    color: rgb(45,45,45);
+}
+
+input[name="aprov"]:hover
+{
+    color: rgb(255,255,255);
+    background-color: rgba(230,115,0, 1.0);
+}
+
+
+
+div.crop_panel_resize{
+    marin-top:30px;
+    text-align: center;
+}
+
+button[name="plus_css"]
+{
+    margin-top: 20px;
+    background-color: rgba(230,115,0,.5);
+    width: 148px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(45,45,45);
+    border: 0px solid rgba(0,0,0,.0);
+}
+
+button[name="minus_css"]
+{
+    margin-top: 20px;
+    background-color: rgba(230,115,0,.5);
+    width: 148px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(45,45,45);
+    border: 0px solid rgba(0,0,0,.0);
+}
+
+button[name="plus_css"]:hover
+{
+    background-color: rgba(230,115,0,1.0);
+    color: #FFF;
+}
+
+button[name="minus_css"]:hover
+{
+    background-color: rgba(230,115,0,1.0);
+    color: #FFF;
+}
+
+button[name="up_css"]
+{
+    background-image: url(directions/up_h.jpg);
+    border: 0px solid rgba(230,115,0,.0);
+    width: 120px;
+    height: 49px;
+}
+
+button[name="left_css"]
+{
+    background-image: url(directions/left_h.jpg);
+    width: 57.5px;
+    height: 49px;
+    border: 0px solid rgba(230,115,0,.0);
+}
+
+button[name="right_css"]
+{
+    background-image: url(directions/right_h.jpg);
+    width: 57.5px;
+    height: 49px;
+    border: 0px solid rgba(230,115,0,.0);
+}
+
+button[name="down_css"]
+{
+    background-image: url(directions/down_h.jpg);
+    width: 120px;
+    height: 49px;
+    border: 0px solid rgba(230,115,0,.0);
+}
+
+button[name="down_css"]:hover{
+    background-image: url(directions/down.jpg);
+}
+
+button[name="up_css"]:hover{
+    background-image: url(directions/up.jpg);
+}
+
+button[name="left_css"]:hover{
+    background-image: url(directions/left.jpg);
+}
+
+button[name="right_css"]:hover{
+    background-image: url(directions/right.jpg);
+}
+
+div.d_up{
+    
+}
+
+div.d_down{
+    
+}
+
+div.d_left{
+    display:inline;
+}
+
+div.d_right{
+    display:inline;
+}
+
+div.pointer_panel{
+    text-align: center;
+    margin-top: 10px;
+}
+
+button[name="crop_css"]{
+    color: rgb(45,45,45);
+    background-color: rgba(230,115,0,.8);
+    border: 0px solid rgba(230,115,0,.0);
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+button[name="save_css"]{
+    color: rgb(45,45,45);
+    background-color: rgba(230,115,0,.8);
+    border: 0px solid rgba(230,115,0,.0);
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+button[name="crop_css"]:hover
+{
+    color: rgb(255,255,255);
+    background-color: rgba(230,115,0,1.0);  
+}
+
+button[name="save_css"]:hover
+{
+    color: rgb(255,255,255);
+    background-color: rgba(230,115,0,1.0);  
+}
+
+div.crop_and_save_panel
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.m{
+    margin-top: 5px;
+}
+
+div.inf_picture{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+
+#inf{
+    background-color: rgb(45,45,45); 
+    border-radius: 10px;
+    border: 2px solid rgb(230,115,0);
+    box-shadow: 10px 10px 5px #000;
+    font-size:10px; 
+    color:rgb(255,255,255);
+    width: 240px;
+    height: 110px;
+    top:150px; left:50%; 
+    position: absolute; 
+    visibility: hidden; 
+    padding: 5px;
+    padding: 10px;
+}
+div.inf_header{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.inf_text{
+    margin-top: 5px;
+}
+
+div.red_text{
+    color: rgb(230,115,0);
+    display:inline;
+}

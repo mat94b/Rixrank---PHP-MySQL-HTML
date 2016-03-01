@@ -1,0 +1,260 @@
+body {
+    margin: 0px;
+    background-color: #FFF; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    position: relative;
+    font-family: sans-serif;
+    color: #000;
+}
+
+div.main_border_background{
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: rgb(45,45,45);
+    box-shadow: 10px 10px 5px #888888;
+    margin-left: 32%;
+    margin-top: 20px;
+    width: 65%;
+    border-radius: 10px;
+    border-radius: 10px;  
+}
+
+div.mm {
+    display:inline-block;
+    margin-top:30px;
+    width:190px;
+    background-color:#4C4C4C; 
+}
+
+div.main_photo_border {
+    display:inline-block;
+    position:absolute;
+    width:27%; 
+    height: 50%px;
+    text-align:left;
+    color:#FFF; 
+    background-color: rgb(45,45,45);
+    margin-left: 3%;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 10px;
+}
+
+div.main_photo_orange_text{
+    margin-top: 0px;
+    background-color: rgb(230,115,0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size:30px;
+    font-family: sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+
+div.your_photos {
+    display:inline-block; 
+    width:100%; 
+    text-align:left;
+    margin-left:3%;
+}
+
+div.photos_borders{
+    display:inline-block; 
+    width:170px; 
+    color:#FFF; 
+    background-color: rgb(255,143,32);
+    box-shadow: 10px 10px 5px #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:30px;
+    margin-top:30px;
+    margin-right: 0px;
+    text-align: center;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+div.photos_borders_add{
+    display:inline-block; 
+    width:170px; 
+    color:#FFF; 
+    background-color: rgb(230,115,0);
+    box-shadow: 10px 10px 5px #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:30px;
+    margin-top:30px;
+    margin-right: 0px;
+    text-align: center;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+div.photoim{
+	text-align: left;
+        margin-left: 10px;
+}
+
+div.photoch{
+	display:inline;
+	margin-left:110px;
+}
+
+div.avatar_photo{
+    display: inline;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 5px solid rgb(230,115,0);
+    box-shadow: 10px 10px 5px #000;
+    z-index: 2;
+    border-radius: 10px;
+    background-color: rgb(230,115,0);
+}
+
+div.avatar_flag{
+    display: inline;
+    position:absolute;
+    margin-top: 215px;
+    margin-left: 75px;
+    z-index: 20;
+}
+
+div.avatar_information_plus{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 20px;
+    z-index: 3;
+}
+
+div.avatar_information_minus{
+    position: relative;
+    margin-left: 200px;
+    z-index: 3;
+}
+
+div.avatar_information_age{
+    position: relative;
+    margin-left: 200px;
+    z-index: 3;
+}
+
+div.avatar_information_last_loged{
+    position: relative;
+    margin-left: 200px;
+    z-index: 3;
+}
+
+div.avatar_information_city{
+    position: relative;
+    margin-left: 200px;
+    z-index: 3;
+}
+
+div.avatar_acces_text{
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    font-size: 15px;
+    background-color: rgb(230,115,0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+
+div.avatar_contact_icons{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+div.text_bold{
+    font-weight: bold;
+    display: inline;
+}
+
+div.text_bold_orange{
+    font-weight: bold;
+    color: rgb(230,115,0);
+    display: inline;
+}
+
+div.question_about_contact{
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.footer{
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: rgb(230,115,0);
+}
+
+div.about_me{
+    background-color: rgb(45,45,45);
+    box-shadow: 10px 10px 5px #888;
+    margin-left: 32%;
+    margin-top: 20px;
+    width: 65%;
+    margin-right: 3%;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+div.about_me_orange{
+    background-color: rgb(230,115,0);
+    width: 94%;
+    padding-left: 6%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size:30px;
+    font-family: sans-serif;
+    color: #FFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+
+ div.about_me_text{
+    padding: 20px;
+}
+
+div.iframe_comments{
+    padding: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+iframe{
+    border: 0px solid #FFF;
+    margin-top:20px;
+}
+
+div.hat{
+    background-color: #FFF;
+    width: 80%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size:30px;
+    font-family: sans-serif;
+    color: rgb(230,115,0);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+    
+    
+    
